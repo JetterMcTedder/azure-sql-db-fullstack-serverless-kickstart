@@ -2,7 +2,6 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
   },
-  "remoteUser": "vscode",
   "postCreateCommand": "dotnet tool update --global Microsoft.DataApiBuilder",
   "postCreateCommand": "dotnet tool install -g microsoft.sqlpackage",
   "postCreateCommand": "curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg",    
